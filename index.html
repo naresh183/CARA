@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+      .banner{
+        overflow: hidden;
+        height: 400px;
+        background-color: rgb(224, 232, 240);
+      }
+      .banner-image{
+        height: 600px;
+        width: 600px;
+      }
+      .accessoriesbg{
+        background-image: url(./images/banner/b2.jpg);
+        background-size: 100% 100%;
+        height: 330px;
+        background-position: center;
+      }
+      .crazydealsbg{
+        background-image: url(./images/banner/b17.jpg);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 120% 100%;
+        background-position: center;
+      }
+      .summer{
+        background-image: url(./images/banner/b10.jpg);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+      }
+      .seasonalsale{
+        background-image: url(./images/banner/b7.jpg);
+        background-repeat: no-repeat;
+        height: 270px;
+        background-size: 100% 100%;
+        background-position: center;
+        
+      }
+      .footware{
+        background-image: url(./images/banner/b4.jpg);
+        background-repeat: no-repeat;
+        background-size: 130% 100%;
+        background-position: center;
+        height: 270px;
+      }
+      .tshirts{
+        background-image: url(./images/banner/b18.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100% 100% ;
+        height: 270px;
+        width: 100%;
+      }
+      .newsletterbg{
+        
+        background-image: url(./images/banner/b14.png);
+        align-items: center;
+        background-color: rgb(5, 5, 131);
+      }
+
+      .footericons img{
+        height: 20px;
+      }
+      .banner{
+        background-image: url(./images/cara\ banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position:center;
+      }
+      .shopnow{
+        position: relative;
+        right: 150px;
+        top: 8px;
+      }
+      .display-4{font-size: 65.9px;
+      }
+      .featuredP div{
+        border-radius:10px;
+      }
+      .newarivals div{
+        border-radius:10px;
+      }
+      .card img{
+        border-radius: 20px;
+      }
+      nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+      }
+     
+
+      
+      
+    </style>
+</head>
+<body>
+    <!-- navigation bar starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+                <a class="navbar-brand dance-font fa-2x text-light" href="#"><img src="./images/logo.png" alt=""></a>
+                <button class="navbar-toggler autoplay" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon bg-secondary"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto d-flext gap-4 ">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+
+       <!-- navigation bar ends here -->
+
+       <!-- banner image starts here -->
+
+    <div class="banner" style="height: 100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-6 col-md-6 mt-5" style="height: 100vh;">
+                    <br><br>
+                    <p class="h2 text-light" style="font-weight: bold;">Trade-in-offer</p>
+                    <p class="h1 display-4" style="font-weight: bolder;">Super value deals</p>
+                    <p class="h1 display-5 text-info" style="font-weight: bolder;">On all products</p>
+                    <p class="h6 mt-3">save more coupons & up to 70% off!</p>
+                    <span><img src="./images/button.png" alt="" class="img-fluid mt-3"><b class="text-info shopnow">Shop now</b></span>   
+                </div>
+                
+            </div>
+        </div>
+       
+       </div>
+       <!-- banner image ends here -->
+
+       <!-- sales cards starts here -->
+
+       <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f1.png" alt="">
+                    <div class="card-body ">
+                        <div class="btn btn-sm btn-danger text-dark font-weight-bold" style="background-color: lightpink;border: none;">Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f2.png" alt="">
+                    <div class="card-body">
+                        <div class="btn btn-sm btn-primary text-dark font-weight-bold" style="background-color:lightgreen;border: none;">Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f3.png" alt="">
+                    <div class="card-body">
+                        <div class="btn btn-sm btn-primary text-dark font-weight-bold" style="background-color:lightskyblue;border: none;">Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f4.png" alt="">
+                    <div class="card-body">
+                        <div class="btn btn-sm btn-primary text-dark font-weight-bold" style="background-color:rgb(155, 157, 248);border: none;">Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f5.png" alt="">
+                    <div class="card-body">
+                        <div class="btn btn-sm btn-primary text-dark font-weight-bold" style="background-color:lightpink;border: none;" >Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <div style="padding: 10px 2px;" class="card mt-3">
+                    <img src="./images/people/features/f6.png" alt="">
+                    <div class="card-body">
+                        <div class="btn btn-sm btn-primary text-dark font-weight-bold" style="background-color:rgb(193, 248, 130);border: none;">Free Shipping</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+<br>
+       <!-- featured projects heading -->
+
+       <div class="container text-center mt-5 mt-5">
+            <h1 class="font-weight-bold">Featured Products</h1>
+            <p class="text-muted">Summer Collection New Modern Design</p>
+       </div>
+       <br>
+
+       <!-- featured projects cards starts here -->
+
+    <div class="container featuredP">
+        <div class="row">
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f1.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f2.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f3.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f4.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f5.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f6.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f7.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/f8.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br><br><br>
+  
+<!-- accessories bg image-->
+
+<div class="accessoriesbg">
+  <div>
+    <p class="text-center text-light pt-lg-5 pt-sm-3 font-weight-bold">Repaire Services</p>
+    <p style="font-size: 55px;" class="text-center text-light h2 font-weight-bold">Up to 70% Off - All t-Shirts & Accessories</p>
+    <div class="text-center mt-5">
+        <p class="btn btn-light">Explore More</p>
+    </div>
+  </div>   
+</div>
+    <!-- new arrivals -->
+    <div class="text-center mt-5">
+        <p class="display-4 font-weight-bold">New Arrivals</p>
+        <p class="text-muted font-weight-bold">Summer Collection New Modern Design</p>
+    </div>
+
+    <!-- new arrivals cards starts here-->
+
+    <div class="container newarivals">
+        <div class="row">
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n1.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n2.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n3.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n4.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n5.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n6.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n7.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6  col-sm-6 col-md-3">
+                <div class="card pb-0.2 img-thumbnail mt-4">
+                    <img src="./images/products/n8.jpg" alt="" class="img-fluid p-2 mb-0">
+                    <div class="card-body">
+                        <p style="margin-top: -20px;" class="text-muted">adidas</p>
+                        <h6>Cartoon Astronaut T-Shirts</h6>
+                        <img src="./images/Screenshot 2023-06-30 195427.png" alt="" class="img-fluid w-50 mb-1">
+                       <div style="margin-bottom: -30px;margin-top: -20px;" class="d-flex justify-content-between align-items-center mt-2">
+                        <p class="text-success font-weight-bold">$78</p>
+                        <p style="background-color: lightgreen;padding: 7px 10px;border-radius: 50%;"><i class="fa-solid fa-cart-shopping"></i></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- buy1 get1 free cards -->
+
+    <div class="crazydeals">
+        <div class="container text-light">
+           <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 mt-4">
+                <div class="crazydealsbg p-5">
+                 <p>crazy deals</p>
+                 <h1>buy 1 get 1 free</h1>
+                 <p>The best classic dress is on sale at cara</p>
+                 <p class="btn btn-outline-light">Learn More</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 mt-4">
+                <div class="summer p-5">
+                 <p>spring/summer</p>
+                 <h1>upcoming season</h1>
+                 <p>The best classic dress is on sale at cara</p>
+                 <p class="btn btn-outline-light">Learn More</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- SEASONAL SALE , footware and t-shirts -->
+
+    <div>
+        <div class="container-fluid mt-4">
+            <div class="row d-flex justify-content-center m-5">
+                <div class="col col-sm-12 col-md-4 mt-4">
+                    <div class="seasonalsale img-fluid p-5">
+                       <h2 class="text-light mt-5 font-weight-bold">SEASONAL SALE</h2>
+                       <P style="color: maroon;" class="font-weight-bold">Winter Collection 50% Off</P>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-4 mt-4">
+                    <div class="footware img-fluid p-5">
+                       <h2 class="text-light mt-5 mr-3 font-weight-bold">NEW FOOTWEAR COLLECTION</h2>
+                       <P style="color: maroon;" class=" font-weight-bold">Spring/Summer 2022</P>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-4 mt-4">
+                    <div class="tshirts img-fluid p-5">
+                       <h2 class="text-light mt-4 font-weight-bold">T - SHIRTS</h2>
+                       <P style="color: maroon;" class=" font-weight-bold">New Trendy Prints</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <!-- news letters and signup -->
+
+ <div class="newsletterbg">
+    <div class="grid">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-4 col-sm-5  col-md-5 col-lg-6">
+                    <h3 class="text-light mt-5">Sign Up For Newsletters</h3>
+                    <p class="text-muted mt-2">get email updates about out latest shop and <span style="color: yellow;">special offers</span></p>
+                </div>
+
+                <div style="margin-top: 30px;" class="col-8 col-sm-7 col-md-7 col-lg-5 input-group">
+                    <input type="text" placeholder="Your Email Address" class="input-group-text form-control h-25 mt-5 p-3 ">
+                    <p style="color: white;" class="btn bg-info input-group-text form-label h-25 mt-5 p-3">Sign Up</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- footer starts here -->
+
+ <footer>
+    <div class="grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-3 mt-2">
+                    <ul class="list-unstyled">
+                        <br>
+                        <li><img src="./images/logo.png" alt="" class="img-fluid"></li><br>
+                        <li><b>Contact</b></li>
+                        <li class="mt-2"><i><b>address:</b>willington road,streeet 32,san francisco</i></li>
+                        <li><i><b>phone:</b> willington road,streeet 32,san francisco</i></li>
+                        <li><i><b>hours :</b> 10:00 - 18:00, mon - sat</i></li>
+                        <li class="mt-2"><b>Follow us</b></li>
+                        <li class="d-flex footericons mt-3">
+                            <img src="./images/facebook.jpg" alt="" class="img-fluid">
+                            <img src="./images/youtube.jpg" alt="" class="img-fluid ml-1">
+                            <img src="./images/telegram.jpg" alt="" class="img-fluid ml-1">
+                            <img src="./images/instagram.jpg" alt="" class="img-fluid ml-1">
+                            <img src="./images/twitter.jpg" alt="" class="img-fluid ml-1">    
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-3 mt-2">
+                    <ul class="list-unstyled">
+                        <br>
+                        <li><b>About</b></li><br>
+                        <li>About Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 mt-2">
+                    <ul class="list-unstyled">
+                        <br>
+                        <li><b>My Account</b></li><br>
+                        <li>Sign in</li>
+                        <li>View Cart</li>
+                        <li>My Wallet</li>
+                        <li>Track My Order</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 mt-2">
+                    <ul class="list-unstyled">
+                        <br>
+                        <li><b>Install App</b></li><br>
+                        <li>From App Store or Google Play</li>
+                        <li class="d-flex mt-2" style="width: 110px;">
+                            <img style="border: 1px solid;margin-left: -2px;" src="./images/pay/app.jpg" alt="" class="img-fluid">
+                            <img style="border: 1px solid;margin-left: 3px;" src="./images/pay/play.jpg" alt="" class="img-fluid">
+                        </li>
+                        <li>Secured Payment Gateways</li>
+                        <li class="mt-3"><img src="./images/pay/pay.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+ </footer>
+</body>
+</html>
